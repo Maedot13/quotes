@@ -100,10 +100,22 @@ const quotes = {
     'Franz Kafka': [
         'If you find someone who makes you smile, who checks up on you often to see if you\'re okay. Who watches out or you and wants the best for you. Who loves and respects you. Don\'t let them go. People like that are hard to find.',
         'It\'s only because of their stupidity that they\'re able to be so sure of themselves.',
-        'Start with what is right rather than what is acceptable.'
+        'Start with what is right rather than what is acceptable.',
+        'Paths are made by walking.'
     ],
     'Puck': [
         'People saying: “It can’t be done,” are always being interrupted by somebody doing it.'
+    ],
+    'Friedrich Nietzsche':[
+        'Become who you are',
+        'You must have chaos within you to give birth to a dancing star'
+    ],
+    'Fyodor Dostoevsky':[
+        'To live without Hope is to Cease to live.',
+        'Taking a new step, uttering a new word, is what people fear most.',
+        'Instruction ends with the classroom, education ends only with life.',
+        'It takes something more than intelligence to act intelligently.',
+        "he second half of a man's life is made up of nothing but the habits he has acquired during the first half."
     ]
 };
 

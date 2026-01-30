@@ -77,14 +77,18 @@ module.exports = {
         new HtmlWebpackPlugin({template: './index.html'})
     ],
     devServer: {
-        contentBase: path.join(__dirname, 'src'),
-        port: 8080,
-        overlay: {
-            warnings: true,
-            errors: true
-        },
-        quiet: true,
-        historyApiFallback: true,
-        disableHostCheck: true
-    }
+  static: {
+    directory: path.join(__dirname, 'src'),
+  },
+  port: 8080,
+  client: {
+    overlay: {
+      warnings: true,
+      errors: true,
+    },
+  },
+  historyApiFallback: true,
+  allowedHosts: 'all',
+}
+
 };
